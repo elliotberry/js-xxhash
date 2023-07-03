@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#1E2861",
+        "titleBar.activeBackground": "#2A3888",
+        "titleBar.activeForeground": "#FCFDFE"
+    },
+    "git-blame.gitWebUrl": ""
+}

@@ -1,8 +1,9 @@
 {
-  "name": "xxhashjs",
-  "version": "0.2.2",
+  "name": "xxxhashjs",
+  "version": "4.2.0",
   "description": "xxHash in Javascript",
-  "main": "./lib/index.js",
+  "main": "./index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha",
     "prepublish": "webpack && uglifyjs -m -c -o build/xxhash.min.js build/xxhash.js"
@@ -15,12 +16,12 @@
     "xxhash",
     "xxh"
   ],
-  "author": "Pierre Curto",
-  "license": "MIT",
+  "author": "Pierre Von Pierro, Jr.",
+ 
   "bugs": {
-    "url": "https://github.com/pierrec/js-xxhash/issues"
+    "url": "there are none"
   },
-  "homepage": "https://github.com/pierrec/js-xxhash",
+ 
   "dependencies": {
     "cuint": "^0.2.2"
   },
